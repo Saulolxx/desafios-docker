@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  go:
+    container_name: golang
+    image: golang:latest
+    volumes:
+      - ./src:/go/src
+    tty: true
